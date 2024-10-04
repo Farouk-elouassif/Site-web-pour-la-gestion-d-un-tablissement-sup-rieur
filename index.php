@@ -20,22 +20,32 @@
     </div>
   </div>
 
-  <div id="headerlogos" class="flex flex-row justify-center space-around mt-3 border-b-2 w-3/4">
+  <div id="headerlogos" class="flex flex-row justify-center space-around p-4 border-b-2 w-3/4">
     <a href="#" class="lg:mr-72 lg:mt-1 sm:mr-1"><img src="imgs/fst-1024x383.png" alt="" width="215" ></a>
     <a href="#" class="lg:ml-72 lg:mt-3 sm:ml-1 sm:mt-2"><img src="imgs/logo-uae-1024x297.png" alt="" width="230" ></a>
   </div>
 
-  <nav class=" flex justify-center mt-2" id="navbar">
-    <ul class="flex space-around font-semibold cursor-pointer space-x-12">
-      <li>Faculté<i class="fa-solid fa-caret-down ml-1"></i></li>
-      <li>Formation<i class="fa-solid fa-caret-down ml-1"></i></li>
-      <li>Recherche<i class="fa-solid fa-caret-down ml-1"></i></li>
-      <li>Espace Entreprise<i class="fa-solid fa-caret-down ml-1"></i></li>
-      <li>Espace Etudiant<i class="fa-solid fa-caret-down ml-1"></i></li>
-      <li>E-Learning<i class="fa-solid fa-caret-down ml-1"></i></li>
-      <li>E-Services<i class="fa-solid fa-caret-down ml-1"></i></li>
-    </ul>
-  </nav>
+  <nav class="relative">
+  <div class="flex justify-between items-center">
+    <!-- Hamburger Icon -->
+    <div class=" text-3xl cursor-pointer lg:hidden" id="menu-toggle">
+      <i class="fa-solid fa-bars text-yellow-500"></i>
+    </div>
+  </div>
+
+  <!-- Nav Links -->
+  <ul id="navbar" class="hidden flex-col lg:flex lg:flex-row lg:justify-center space-x-6 font-semibold cursor-pointer transition-all duration-500">
+    <li class="hover:text-yellow-400 duration-300 p-4 flex items-center justify-center">Faculté<i class="fa-solid fa-caret-down ml-1"></i></li>
+    <li class="hover:text-yellow-400 duration-300 p-4 flex items-center justify-center">Formation<i class="fa-solid fa-caret-down ml-1"></i></li>
+    <li class="hover:text-yellow-400 duration-300 p-4 flex items-center justify-center">Recherche<i class="fa-solid fa-caret-down ml-1"></i></li>
+    <li class="hover:text-yellow-400 duration-300 p-4 flex items-center justify-center">Espace Entreprise<i class="fa-solid fa-caret-down ml-1"></i></li>
+    <li class="hover:text-yellow-400 duration-300 p-4 flex items-center justify-center">Espace Etudiant<i class="fa-solid fa-caret-down ml-1"></i></li>
+    <li class="hover:text-yellow-400 duration-300 p-4 flex items-center justify-center">E-Learning<i class="fa-solid fa-caret-down ml-1"></i></li>
+    <li class="hover:text-yellow-400 duration-300 p-4 flex items-center justify-center">E-Services<i class="fa-solid fa-caret-down ml-1"></i></li>
+  </ul>
+</nav>
+
+
 </header>
 
 
