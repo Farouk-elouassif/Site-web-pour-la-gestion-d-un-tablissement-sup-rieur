@@ -1,4 +1,4 @@
-  // Toggle the dropdown visibility for desktop
+
   document.querySelectorAll('.dropdown').forEach(function(menuItem) {
     menuItem.addEventListener('mouseenter', function() {
       const targetMenu = menuItem.getAttribute('data-target');
@@ -10,8 +10,8 @@
     });
   });
 
-  // For mobile: Toggle the menu on click
+
   document.getElementById('menu-toggle').addEventListener('click', function() {
-    var navbar = document.getElementById('navbar');
+    let navbar = document.getElementById('navbar');
     navbar.classList.toggle('hidden');
   })
