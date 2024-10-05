@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="styles.css">
   <title>FST-Tanger</title>
 </head>
-<body class="min-h-screen flex flex-col">
+<body class="min-h-screen flex flex-col overflow-x-hidden">
 <header class="flex justify-center items-center flex-col">
   <div id="contact" class="flex flex-wrap p-2 bg-blue-900 justify-center space-around sm:flex-col lg:flex-row text-white  w-screen">
     <p class="ml-3"><i class="fa-solid fa-envelope text-yellow-500"></i> administration.fstt@uae.ac.ma</p>
@@ -21,7 +21,7 @@
     </div>
   </div>
 
-  <div id="headerlogos" class="flex flex-row justify-center space-around p-4 border-b-2 w-3/4">
+  <div id="headerlogos" class="flex flex-row justify-center space-around p-4 border-b-2 w-4/5">
     <a href="index.php" class="lg:mr-72 lg:mt-1 sm:mr-1"><img src="imgs/fst-1024x383.png" alt="" width="215"></a>
     <a href="https://www.uae.ac.ma" target="_blank" class="lg:ml-72 lg:mt-3 sm:ml-1 sm:mt-2"><img src="imgs/logo-uae-1024x297.png" alt="" width="230"></a>
   </div>
@@ -103,10 +103,31 @@
     </ul>
   </nav>
 </header>
-<main class="flex-1">
-  
+<main class="flex-1 m-4 ">
+  <div id="container1" class="flex justify-center  justify-around">
+    <div id="motDudoyen" class="p-4  flex justify-center flex-col rounded-md mt-2 bg-white shacow-lg border-black">
+      <p class="text-blue-900 mb-2 font-semibold"><i class="fa-solid fa-note-sticky "></i> Mot du Doyen</p>
+      <img src="imgs/doyen.jpeg" class="rounded-md">
+      <p>Mot du Doyen <span class="font-semibold">Pr. Mustapha Diani</span></p>
+      <button class="bg-blue-900 p-2 mt-1 w-1/2 text-yellow-500 rounded-md hover:bg-blue-800 font-semibold"><a href="#">Lire</a></button>
+    </div>
+      <div id="presentation" class="p-4 flex justify-center flex-col rounded-md mt-2">
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
+          <img src="imgs/presentation.png" alt="FST Tanger" class="w-full h-auto">
+          <div class="p-4">
+            <p class="text-gray-700 text-sm leading-relaxed">
+              Créée en 1995, la FST de Tanger est un des dix huit établissements de l'Université Abdelmalek Essaâdi. Elle regroupe actuellement une trentaine de programmes d'études repartis sur quatre cycles offerts par neuf départements : Sciences de la Vie, Sciences de la Terre, Génie Chimique, Physique, Mathématiques, Génie Informatique, Génie Électrique et Génie Mécanique et de Langues.
+            </p>
+            <button class="mt-4 bg-blue-900 text-yellow-500 font-semibold px-4 py-2 rounded-lg hover:bg-blue-800">
+              Lire plus
+            </button>
+        </div>
+      </div>
+  </div>
+
+  div
 </main>
-<footer class="bg-blue-900 text-white p-4 text-center">
+<footer class="bg-blue-900 text-white p-4 text-center ">
   <div id="footerElements" class="flex justify-around flex-col sm:flex-row">
     <div class="lienUtiles text-start">
       <ul>
