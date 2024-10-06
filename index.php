@@ -103,31 +103,80 @@
     </ul>
   </nav>
 </header>
-<main class="flex-1 m-4 ">
-  <div id="container1" class="flex justify-center  justify-around">
-    <div id="motDudoyen" class="p-4  flex justify-center flex-col rounded-md mt-2 bg-white shacow-lg border-black">
-      <p class="text-blue-900 mb-2 font-semibold"><i class="fa-solid fa-note-sticky "></i> Mot du Doyen</p>
+<main class="flex-1 m-4 flex flex-col items-center justify-center">
+  <div id="container1" class="flex justify-around w-full">
+    
+    <div id="motDudoyen" class="p-4 flex justify-center flex-col rounded-md mb-4 bg-white shadow-lg border-black">
+      <p class="text-blue-900 mb-2 font-semibold">
+        <i class="fa-solid fa-quote-left mr-1 text-2xl"></i>Mot du Doyen
+      </p>
       <img src="imgs/doyen.jpeg" class="rounded-md">
       <p>Mot du Doyen <span class="font-semibold">Pr. Mustapha Diani</span></p>
-      <button class="bg-blue-900 p-2 mt-1 w-1/2 text-yellow-500 rounded-md hover:bg-blue-800 font-semibold"><a href="#">Lire</a></button>
+      <p class="text-end text-2xl text-blue-900">
+        <i class="fa-solid fa-quote-right"></i>
+      </p>
+      <button class="bg-blue-900 p-2 mt-1 w-1/2 text-yellow-500 rounded-md hover:bg-blue-800 font-semibold">
+        <a href="#">Lire</a>
+      </button>
     </div>
-      <div id="presentation" class="p-4 flex justify-center flex-col rounded-md mt-2">
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
-          <img src="imgs/presentation.png" alt="FST Tanger" class="w-full h-auto">
-          <div class="p-4">
-            <p class="text-gray-700 text-sm leading-relaxed">
-              Créée en 1995, la FST de Tanger est un des dix huit établissements de l'Université Abdelmalek Essaâdi. Elle regroupe actuellement une trentaine de programmes d'études repartis sur quatre cycles offerts par neuf départements : Sciences de la Vie, Sciences de la Terre, Génie Chimique, Physique, Mathématiques, Génie Informatique, Génie Électrique et Génie Mécanique et de Langues.
-            </p>
-            <button class="mt-4 bg-blue-900 text-yellow-500 font-semibold px-4 py-2 rounded-lg hover:bg-blue-800">
-              Lire plus
-            </button>
+
+    
+    <div id="presentation" class="p-4 flex justify-center flex-col rounded-md mt-2 max-w-sm">
+      <div class="bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
+        <img src="imgs/presentation.png" alt="FST Tanger" class="w-full h-auto">
+        <div class="p-4">
+          <p class="text-gray-700 text-sm leading-relaxed">
+            Créée en 1995, la <span class="font-semibold">FST de Tanger</span> est un des dix-huit établissements de l'Université Abdelmalek Essaâdi.
+            Elle regroupe actuellement une trentaine de programmes d'études répartis sur quatre cycles offerts
+            par neuf départements : Sciences de la Vie, Sciences de la Terre, Génie Chimique, Physique, Mathématiques,
+            Génie Informatique, Génie Électrique et Génie Mécanique et de Langues.
+          </p>
+          <button class="mt-4 bg-blue-900 text-yellow-500 font-semibold px-4 py-2 rounded-lg hover:bg-blue-800">
+            Lire plus
+          </button>
         </div>
       </div>
+    </div>
+
+    <div id="presentationUae" class="p-4 flex justify-center flex-col rounded-md mt-2 max-w-sm">
+      <div class="bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
+        <img src="https://www.uae.ma/website/sites/all/themes/uae_theme/images/uae.jpg" alt="FST Tanger" class="w-full h-auto">
+        <div class="p-4">
+          <p class="text-gray-700 text-sm leading-relaxed">
+            Créée en 1989, <span class="font-semibold">l'Université Abdelmalek Essaâdi</span> est l'une des principales institutions d'enseignement supérieur 
+            au nord du Maroc. Elle regroupe plusieurs établissements répartis dans les villes de Tétouan, Tanger, Larache 
+            et Al Hoceima, l'université se distingue par son engagement en faveur de la recherche scientifique, 
+            tout en offrant à ses étudiants un environnement académique riche et diversifié grâce à ses neuf facultés et écoles.
+          </p>
+          <button class="mt-4 bg-blue-900 text-yellow-500 font-semibold px-4 py-2 rounded-lg hover:bg-blue-800">
+            Lire plus
+          </button>
+        </div>
+      </div>
+    </div>
   </div>
 
-  div
+  
+  <div id="formationInitial" class="flex flex-col w-full items-center flex-wrap mt-12">
+    <p class="text-2xl font-bold mb-6  text-blue-800"><i class="fa-solid fa-graduation-cap text-yellow-500"></i> Formation Initial</p>
+    <ul class="flex flex-row justify-around">
+      <li class="deust rounded-md transition-all duration-300 ease-linear cursor-pointer  bg-blue-900 w-full p-12 m-1 flex items-center justify-center shadow-lg hover:bg-yellow-500 hover:opacity-1">
+        <P class="font-semibold transition-all duration-300 ease-linear hover:text-blue-900  text-xl text-white  text-center"><i class="fa-solid fa-file text-4xl"></i><br>Deust</P>
+      </li>
+      <li class="deust rounded-md transition-all duration-300 ease-linear cursor-pointer  bg-blue-900 w-full p-12 m-1 flex items-center justify-center shadow-lg hover:bg-yellow-500 hover:opacity-1">
+        <P class="font-semibold transition-all duration-300 ease-linear hover:text-blue-900  text-xl text-white  text-center"><i class="fa-solid fa-note-sticky text-4xl"></i><br>Licence en science et technique</P>
+      </li>
+      <li class="deust rounded-md transition-all duration-300 ease-linear cursor-pointer  bg-blue-900 w-full p-12 m-1 flex items-center justify-center shadow-lg hover:bg-yellow-500 hover:opacity-1">
+        <P class="font-semibold transition-all duration-300 ease-linear hover:text-blue-900  text-xl text-white  text-center"><i class="fa-solid fa-graduation-cap text-4xl"></i><br>Master en science et technique</P>
+      </li>
+      <li class="deust rounded-md transition-all duration-300 ease-linear cursor-pointer  bg-blue-900 w-full p-12 m-1 flex items-center justify-center shadow-lg hover:bg-yellow-500 hover:opacity-1">
+        <P class="font-semibold transition-all duration-300 ease-linear hover:text-blue-900  text-xl text-white  text-center"><i class="fa-solid fa-gears text-4xl"></i><br>Cycle d'ingénieur</P>
+      </li>
+    </ul>
+  </div>
 </main>
-<footer class="bg-blue-900 text-white p-4 text-center ">
+
+<footer class="bg-blue-900 text-white p-4 text-center w-screen">
   <div id="footerElements" class="flex justify-around flex-col sm:flex-row">
     <div class="lienUtiles text-start">
       <ul>

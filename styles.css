@@ -5,4 +5,21 @@
     justify-content: center;
     margin-left: 0;
   }
+
+  #formationInitial > ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+    margin: 4px;
+  }
+
+  
 }
+
+
+
+
+
+
