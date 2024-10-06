@@ -104,7 +104,7 @@
   </nav>
 </header>
 <main class="flex-1 m-4 flex flex-col items-center justify-center">
-  <div id="container1" class="flex justify-around w-full">
+  <div id="container1" class="flex justify-center w-full gap-10">
     
     <div id="motDudoyen" class="p-4 flex justify-center flex-col rounded-md mb-4 bg-white shadow-lg border-black">
       <p class="text-blue-900 mb-2 font-semibold">
@@ -115,13 +115,13 @@
       <p class="text-end text-2xl text-blue-900">
         <i class="fa-solid fa-quote-right"></i>
       </p>
-      <button class="bg-blue-900 p-2 mt-1 w-1/2 text-yellow-500 rounded-md hover:bg-blue-800 font-semibold">
+      <button class="bg-blue-900 p-2 mt-1 w-1/2 text-white rounded-md hover:bg-blue-800 font-semibold">
         <a href="#">Lire</a>
       </button>
     </div>
 
     
-    <div id="presentation" class="p-4 flex justify-center flex-col rounded-md mt-2 max-w-sm">
+    <div id="presentation" class="p-4 flex justify-center flex-col rounded-md mt-4 max-w-sm  ml-2 ">
       <div class="bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
         <img src="imgs/presentation.png" alt="FST Tanger" class="w-full h-auto">
         <div class="p-4">
@@ -131,7 +131,7 @@
             par neuf départements : Sciences de la Vie, Sciences de la Terre, Génie Chimique, Physique, Mathématiques,
             Génie Informatique, Génie Électrique et Génie Mécanique et de Langues.
           </p>
-          <button class="mt-4 bg-blue-900 text-yellow-500 font-semibold px-4 py-2 rounded-lg hover:bg-blue-800">
+          <button class="mt-4 bg-blue-900 text-white font-semibold px-4 py-2 rounded-lg hover:bg-blue-800">
             Lire plus
           </button>
         </div>
@@ -148,7 +148,7 @@
             et Al Hoceima, l'université se distingue par son engagement en faveur de la recherche scientifique, 
             tout en offrant à ses étudiants un environnement académique riche et diversifié grâce à ses neuf facultés et écoles.
           </p>
-          <button class="mt-4 bg-blue-900 text-yellow-500 font-semibold px-4 py-2 rounded-lg hover:bg-blue-800">
+          <button class="mt-4 bg-blue-900 text-white font-semibold px-4 py-2 rounded-lg hover:bg-blue-800">
             Lire plus
           </button>
         </div>
