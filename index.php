@@ -174,6 +174,35 @@
       </li>
     </ul>
   </div>
+
+  <div id="form" class="mt-12 flex flex-row flew-wrap gap-8  space-x-72">
+    <div id="formationContinue" class=" flex flex-col h-auto">
+      <h3 class="text-2xl font-bold mb-4 text-blue-800 self-center">Formation Continue</h3>
+      <div class="bg-blue-900 flex items-center flex-col p-3 rounded-md font-semibold text-white h-1/5 shadow-lg">
+        <h3><a href="#">D.C.E.S.S</a></h3>
+        <p>Cycle des Etudes Supérieures Spécialisées</p>
+      </div>
+      <div class="bg-yellow-500 flex items-center flex-col p-3 rounded-md font-semibold text-white mt-2 h-1/5 shadow-lg">
+      <h3><a href="#">D.C.A</a></h3>
+      <p>Cycle des Etudes Supérieures Spécialisées</p>
+      </div>
+      <div class="bg-blue-900 flex items-center flex-col p-3 rounded-md font-semibold text-white mt-2 h-1/5 shadow-lg">
+        <h3><a href="#">LICENCE CNAM</a>
+      </div>
+      <div class="bg-yellow-500 flex items-center flex-col p-3 rounded-md font-semibold text-white mt-2 h-1/5 shadow-lg">
+        <h3><a href="#">FORMATION A LA CARTE</a></h3>
+      </div>
+    </div>
+
+    <div id="espaceDoctorat" class="">
+      <h3 class="text-2xl font-bold mb-4 text-blue-800">Espace Doctorant</h3>
+      <ul>
+        <li><span>>>></span> Guichet </li>
+        <li>Guichet </li>
+        <li>Guichet </li>
+      </ul>
+    </div>
+  </div>
 </main>
 
 <footer class="bg-blue-900 text-white p-4 text-center w-screen">
@@ -202,7 +231,7 @@
     </div>
   </div>
 
-  <p class="text-yellow-500 mt-4">&copy; 2024 FST-Tanger / Made by Farouk ElOuassif</p>
+  <p class="text-yellow-500 mt-4">&copy; 2024 FST-Tanger / Made by Farouk El Ouassif</p>
 </footer>
 
 
