@@ -10,7 +10,7 @@
   <title>FST-Tanger</title>
 </head>
 <body class="min-h-screen flex flex-col overflow-x-hidden">
-<header class="flex justify-center items-center flex-col">
+<header class="flex justify-center items-center flex-col w-full">
   <div id="contact" class="flex flex-wrap p-2 bg-blue-900 justify-center space-around sm:flex-col lg:flex-row text-white  w-screen">
     <p class="ml-3"><i class="fa-solid fa-envelope text-yellow-500"></i> administration.fstt@uae.ac.ma</p>
     <p class="ml-3 "><i class="fa-solid fa-phone text-yellow-500"></i> + 212 (0)5 39 39 39 54/ 55</p>
@@ -175,7 +175,7 @@
     </ul>
   </div>
 
-  <div id="form" class="mt-12 flex flex-row flew-wrap gap-8  space-x-72">
+  <div id="form" class="mt-12 flex flex-row flew-wrap  space-x-72">
     <div id="formationContinue" class=" flex flex-col h-auto">
       <h3 class="text-2xl font-bold mb-4 text-blue-800 self-center">Formation Continue</h3>
       <div class="bg-blue-900 flex items-center flex-col p-3 rounded-md font-semibold text-white h-1/5 shadow-lg">
@@ -194,18 +194,19 @@
       </div>
     </div>
 
-    <div id="espaceDoctorat" class="">
+    <div id="espaceDoctorat" class="p-3">
       <h3 class="text-2xl font-bold mb-4 text-blue-800">Espace Doctorant</h3>
-      <ul>
-        <li><span>>>></span> Guichet </li>
-        <li>Guichet </li>
-        <li>Guichet </li>
+      <ul class="ml-6">
+        <li class="font-semibold hover:text-yellow-500 transition-all ease-linear duration-300"><a href="">Guichet Doctorant</a></li>
+        <li class="font-semibold hover:text-yellow-500 transition-all ease-linear duration-300"><a href="">Avis de soutenances</a></li>
+        <li class="font-semibold hover:text-yellow-500 transition-all ease-linear duration-300"><a href="">Habilitations Universitaires</a></li>
+        
       </ul>
     </div>
   </div>
 </main>
 
-<footer class="bg-blue-900 text-white p-4 text-center w-screen">
+<footer class="bg-blue-900 text-white p-4 text-center w-full">
   <div id="footerElements" class="flex justify-around flex-col sm:flex-row">
     <div class="lienUtiles text-start">
       <ul>
