@@ -12,7 +12,7 @@
   <title>FST-Tanger</title>
 </head>
 <body class="min-h-screen flex flex-col overflow-x-hidden">
-<header class="flex justify-center items-center flex-col w-full">
+<header class="flex justify-center items-center flex-col w-full"> 
   <div id="contact" class="flex flex-wrap p-2 bg-blue-900 justify-center space-around sm:flex-col lg:flex-row text-white  w-screen">
     <p class="ml-3"><i class="fa-solid fa-envelope text-yellow-500"></i> administration.fstt@uae.ac.ma</p>
     <p class="ml-3 "><i class="fa-solid fa-phone text-yellow-500"></i> + 212 (0)5 39 39 39 54/ 55</p>
@@ -101,7 +101,7 @@
           <li class="p-2 hover:bg-yellow-500 hover:text-black transition duration-300"><a href="">Support</a></li>
         </ul>
       </li>
-      <li class="relative hover:bg-yellow-600 duration-300 p-2 h-2/3 mt-2 rounded-md flex items-center justify-center dropdown bg-yellow-500">Sign in</li>
+      <li class="relative hover:bg-yellow-600 duration-300 p-2 h-2/3 mt-2 rounded-md flex items-center justify-center dropdown bg-yellow-500"><a href="login.php">Sign in</a></li>
     </ul>
   </nav>
 </header>

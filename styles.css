@@ -35,6 +35,16 @@
     margin-right: 115%;
     width: 110%;  
   }
+
+  #container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #container #signin{
+    width : 100%;   
+  }
 }
 
 
