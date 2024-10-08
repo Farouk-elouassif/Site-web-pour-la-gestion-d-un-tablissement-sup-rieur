@@ -650,6 +650,10 @@ video {
   height: 66.666667%;
 }
 
+.h-40 {
+  height: 10rem;
+}
+
 .h-auto {
   height: auto;
 }
@@ -676,6 +680,10 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.max-w-\[45\%\] {
+  max-width: 45%;
 }
 
 .max-w-sm {
@@ -912,11 +920,6 @@ video {
 .text-yellow-500 {
   --tw-text-opacity: 1;
   color: rgb(234 179 8 / var(--tw-text-opacity));
-}
-
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
 .shadow-lg {

@@ -6,6 +6,8 @@
   <link rel="icon" href="imgs/fsttlogo.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="/dist/styles.css" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css">
   <title>FST-Tanger</title>
 </head>
@@ -176,7 +178,7 @@
   </div>
 
   <div id="form" class="mt-12 flex flex-row flew-wrap  space-x-72">
-    <div id="formationContinue" class=" flex flex-col h-auto">
+    <div id="formationContinue" class=" flex flex-col h-auto mt-4">
       <h3 class="text-2xl font-bold mb-4 text-blue-800 self-center">Formation Continue</h3>
       <div class="bg-blue-900 flex items-center flex-col p-3 rounded-md font-semibold text-white h-1/5 shadow-lg">
         <h3><a href="#">D.C.E.S.S</a></h3>
@@ -194,7 +196,7 @@
       </div>
     </div>
 
-    <div id="espaceDoctorat" class="p-3">
+    <div id="espaceDoctorat" class="p-3 mt-1">
       <h3 class="text-2xl font-bold mb-4 text-blue-800">Espace Doctorant</h3>
       <ul class="ml-6">
         <li class="font-semibold hover:text-yellow-500 transition-all ease-linear duration-300"><a href="">Guichet Doctorant</a></li>
@@ -204,6 +206,36 @@
       </ul>
     </div>
   </div>
+
+  <div id="lab" class="w-full flex flex-wrap mt-12 justify-center">
+    <h3>Laboratoire</h3>
+    
+    <!-- First Image and Headline -->
+    <div class="text-center flex-1 max-w-[45%] m-4">
+      <img src="imgs/devInnov.jpg" alt="Dev Innov Lab" class="w-full h-auto">
+      <h4 class="mt-4">Dev Innov Lab</h4>
+    </div>
+    
+    <!-- Second Image and Headline -->
+    <div class="text-center flex-1 max-w-[45%] m-4">
+      <img src="imgs/fabadd.jpg" alt="Fab Add Lab" class="w-full h-auto">
+      <h4 class="mt-4">Fab Add Lab</h4>
+    </div>
+    
+    <!-- Third Image and Headline -->
+    <div class="text-center flex-1 max-w-[45%] m-4">
+      <img src="imgs/obsrdig.png" alt="Observatory Digital Lab" class="w-full h-auto">
+      <h4 class="mt-4">Observatory Digital Lab</h4>
+    </div>
+    
+    <!-- Fourth Image and Headline -->
+    <div class="text-center flex-1 max-w-[45%] m-4">
+      <img src="imgs/greenlab.jpg" alt="Green Lab" class="w-full h-40">
+      <h4 class="mt-4">Green Lab</h4>
+    </div>
+  </div>
+  
+  
 </main>
 
 <footer class="bg-blue-900 text-white p-4 text-center w-full">
