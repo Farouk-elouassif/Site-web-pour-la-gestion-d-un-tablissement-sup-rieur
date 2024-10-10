@@ -101,7 +101,7 @@
           <li class="p-2 hover:bg-yellow-500 hover:text-black transition duration-300"><a href="">Support</a></li>
         </ul>
       </li>
-      <li class="relative hover:bg-yellow-600 duration-300 p-2 h-2/3 mt-2 rounded-md flex items-center justify-center dropdown bg-yellow-500"><a href="login.php">Sign in</a></li>
+      <li class="relative hover:bg-yellow-400 duration-300 p-2 h-2/3 mt-2 rounded-md flex items-center justify-center dropdown bg-yellow-500"><a href="login.php">Sign in</a></li>
     </ul>
   </nav>
 </header>
@@ -157,7 +157,6 @@
       </div>
     </div>
   </div>
-
   
   <div id="formationInitial" class="flex flex-col w-full items-center flex-wrap mt-12">
     <p class="text-2xl font-bold mb-6  text-blue-800"><i class="fa-solid fa-graduation-cap text-yellow-500"></i> Formation Initial</p>
@@ -207,31 +206,34 @@
     </div>
   </div>
 
-  <div id="lab" class="w-full flex flex-wrap mt-12 justify-center">
-    <h3>Laboratoire</h3>
-    
-    <!-- First Image and Headline -->
-    <div class="text-center flex-1 max-w-[45%] m-4">
-      <img src="imgs/devInnov.jpg" alt="Dev Innov Lab" class="w-full h-auto">
-      <h4 class="mt-4">Dev Innov Lab</h4>
-    </div>
-    
-    <!-- Second Image and Headline -->
-    <div class="text-center flex-1 max-w-[45%] m-4">
-      <img src="imgs/fabadd.jpg" alt="Fab Add Lab" class="w-full h-auto">
-      <h4 class="mt-4">Fab Add Lab</h4>
-    </div>
-    
-    <!-- Third Image and Headline -->
-    <div class="text-center flex-1 max-w-[45%] m-4">
-      <img src="imgs/obsrdig.png" alt="Observatory Digital Lab" class="w-full h-auto">
-      <h4 class="mt-4">Observatory Digital Lab</h4>
-    </div>
-    
-    <!-- Fourth Image and Headline -->
-    <div class="text-center flex-1 max-w-[45%] m-4">
-      <img src="imgs/greenlab.jpg" alt="Green Lab" class="w-full h-40">
-      <h4 class="mt-4">Green Lab</h4>
+  <div id="laboratoire" class="flex justify-center flex-col items-center mt-12 w-screen">
+    <h3 class="mb-8 text-2xl font-bold text-blue-900"><i class="fa-solid fa-flask-vial text-yellow-500 mr-2"></i>Laboratoire</h3>
+    <div id="imgs" class="flex flex-row flex-wrap justify-center gap-12 w-full">
+      <div id="DevInnov" class="shadow-xl">
+        <figure class="bg-yellow-500">
+        <img src="imgs/devInnov.jpg" alt="Div innov">
+        <figcaption class="p-2 text-center text-blue-900 font-semibold">Centre de Développement et d'Innovation</figcaption>
+        </figure>
+      </div>
+      <div id="DevInnov" class="shadow-xl">
+        <figure class="bg-yellow-500">
+        <img src="imgs/devInnov.jpg" alt="Div innov">
+        <figcaption class="p-2 text-center text-blue-900 font-semibold">Centre de Fabrication Additive</figcaption>
+        </figure>
+      </div>
+      <div id="DevInnov" class="shadow-xl">
+        <figure class="bg-yellow-500">
+        <img src="imgs/devInnov.jpg" alt="Div innov">
+        <figcaption class="p-2 text-center text-blue-900 font-semibold">Observatoire Digital de l'Environnement</figcaption>
+        </figure>
+      </div>
+      <div id="DevInnov" class="shadow-xl">
+        <figure class="bg-yellow-500">
+        <img src="imgs/devInnov.jpg" alt="Div innov">
+        <figcaption class="p-2 text-center text-blue-900 font-semibold">GreenLab</figcaption>
+        </figure>
+      </div>
+      
     </div>
   </div>
   

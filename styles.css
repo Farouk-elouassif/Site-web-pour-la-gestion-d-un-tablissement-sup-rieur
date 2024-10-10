@@ -45,6 +45,14 @@
   #container #signin{
     width : 100%;   
   }
+
+  #laboratoire #imgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
 }
 
 
